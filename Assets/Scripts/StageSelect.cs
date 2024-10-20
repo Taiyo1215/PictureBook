@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class StageSelect : MonoBehaviour
 {
-    public GameObject[] stages;  // 床オブジェクトの配列
-    public string[] sceneNames;  // 対応するシーン名の配列
+    public GameObject[] stages;
+    public string[] sceneNames;
 
     private Camera mainCamera;
-    private bool isMoving = false;  // カメラが移動中かどうかを管理するフラグ
+    private bool isMoving = false;
 
     void Start()
     {
